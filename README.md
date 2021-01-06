@@ -4,3 +4,5 @@
 
 This is my personal repo while learning algorithms.
 
+1. [Python Basic](https://github.com/MatNoble/leetcode/issues/1#issuecomment-755249540)
+
