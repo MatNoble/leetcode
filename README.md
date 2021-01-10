@@ -22,5 +22,6 @@ This is my personal repo while learning algorithms.
 
 | Question Number| Official Website Link | Solution's Link |
 |:-:|-|-|
+|034|[find first and last position of element in sorted array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/034.py)|
 |744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
 |852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
