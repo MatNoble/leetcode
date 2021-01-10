@@ -64,8 +64,35 @@ class LinkedList():
     def __getitem__(self,index):
         return self.get(index)
 
+    # Inserts a new node at index 'index' containing data 'data'.
+    # Indices begin at 0. If the provided index is greater than or 
+    # equal to the length of the linked list the 'data' will be appended.
+    def insert(self, index, value):
+        if index >= self.length() or index < 0:
+            return self.append(value)
+        cur_idx = 0
+        last_node, cur_node = self.head, self.head
+        while True:
+            cur_node = cur_node.next
+            if cur_idx == index:
+                new_node = ListNode(value)
+                last_node.next = new_node
+                new_node.next = cur_node
+                return
+            last_node = cur_node
+            cur_idx += 1
 
-
+    def set_(self, index, value):
+        if index >= self.length() or index < 0:
+            print("ERROR, 'set' Index out of range")
+        cur_idx = 0
+        cur_node = self.head
+        while True:
+            cur_node = cur_node.next
+            if cur_idx == index:
+                cur_node.val = value
+                return
+            cur_idx += 1
 
 mat = LinkedList()
 mat.display()
@@ -85,4 +112,12 @@ print(f"the value of node which index equals {k} is {mat[k]}\n")
 # Deletes the node at index 'index'
 mat.erase(k)
 print(f"the LinkedList deleted the node which index euqals {k} is: ")
+mat.display()
+
+# insert
+mat.insert(3, 100)
+mat.display()
+
+# set_
+mat.set_(3, 200)
 mat.display()
