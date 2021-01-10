@@ -1,12 +1,14 @@
 #==================================================
-#==>      Title:                                     
+#==>      Title: find-first-and-last-position-of-element-in-sorted-array                                 
 #==>     Author: Zhang zhen                   
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
-#==>       Date: 
+#==>       Date: 1/10/2021
 #==================================================
 
-
+"""
+https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+"""
 
 class Solution:
     # Two Pointers
