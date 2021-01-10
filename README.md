@@ -22,4 +22,5 @@ This is my personal repo while learning algorithms.
 
 | Question Number| Official Website Link | Solution's Link |
 |:-:|-|-|
+|744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
 |852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
