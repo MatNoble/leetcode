@@ -19,6 +19,6 @@ class Solution:
         return y if abs(y) <= 2**31-1 else 0
 
 mat = Solution()
-mat.reverse(1450)
-mat.reverse(7200)
+print(mat.reverse(1450))
+print(mat.reverse(7200))
 
