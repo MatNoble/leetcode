@@ -6,7 +6,8 @@ This is my personal repo while learning algorithms.
 
 1. [Python Basic](https://github.com/MatNoble/leetcode/issues/1)
 2. [Data Sturctures and Algorithms](https://github.com/MatNoble/leetcode/issues/2)
-3. [Leetcode solutions](https://github.com/MatNoble/leetcode/issues/3)
+3. [Sorting Algorithms](https://colab.research.google.com/drive/17JVPeq6Quhgsq_Rd8X7pF643Yoh8stV6?usp=sharing)
+4. [Problem-solving cheats](https://github.com/MatNoble/leetcode/issues/3)
 
 ### Two Pointers
 
