@@ -15,21 +15,21 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 
 ### Two Pointers
 
-| Question Number| Official Website Link | Solution's Link |
-|:-:|-|-|
-|011| [container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
-| 026 | [remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/026.py) |
-| 283 | [move zeros](https://leetcode-cn.com/problems/move-zeroes/) | [easy](https://github.com/MatNoble/leetcode/blob/main/283.py) |
-| 344 | [reverse string](https://leetcode-cn.com/problems/reverse-string/) | [easy](https://github.com/MatNoble/leetcode/blob/main/344.py) |
+|Number| Question Number| Official Website Link | Solution's Link |
+|:-:|:-:|-|-|
+|1|011| [container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
+|2| 026 | [remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/026.py) |
+|3| 283 | [move zeros](https://leetcode-cn.com/problems/move-zeroes/) | [easy](https://github.com/MatNoble/leetcode/blob/main/283.py) |
+|4| 344 | [reverse string](https://leetcode-cn.com/problems/reverse-string/) | [easy](https://github.com/MatNoble/leetcode/blob/main/344.py) |
 
 ### Binary Search
 
-| Question Number| Official Website Link | Solution's Link |
-|:-:|-|-|
-|034|[find first and last position of element in sorted array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/034.py)|
-|069|[sqrtx](https://leetcode-cn.com/problems/sqrtx/)|[easy](https://github.com/MatNoble/leetcode/blob/main/069.py)|
-|074|[search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[medium](https://github.com/MatNoble/leetcode/blob/main/074.py)|
-|540|[single element in a sorted array](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/540.py)|
-|704|[binary-search](https://leetcode-cn.com/problems/binary-search/)|[easy](https://github.com/MatNoble/leetcode/blob/main/704.py)|
-|744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
-|852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
+|Number| Question Number| Official Website Link | Solution's Link |
+|:-:|:-:|-|-|
+|1|034|[find first and last position of element in sorted array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/034.py)|
+|2|069|[sqrtx](https://leetcode-cn.com/problems/sqrtx/)|[easy](https://github.com/MatNoble/leetcode/blob/main/069.py)|
+|3|074|[search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[medium](https://github.com/MatNoble/leetcode/blob/main/074.py)|
+|4|540|[single element in a sorted array](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/540.py)|
+|5|704|[binary-search](https://leetcode-cn.com/problems/binary-search/)|[easy](https://github.com/MatNoble/leetcode/blob/main/704.py)|
+|6|744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
+|7|852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
