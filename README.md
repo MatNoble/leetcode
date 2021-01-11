@@ -9,6 +9,10 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 3. [Sorting Algorithms](https://colab.research.google.com/drive/17JVPeq6Quhgsq_Rd8X7pF643Yoh8stV6?usp=sharing)
 4. [Problem-solving cheats](https://github.com/MatNoble/leetcode/issues/3)
 
+### Math
+
+1. [Binary Exponentiation](https://github.com/MatNoble/leetcode/blob/main/050.py)
+
 ### Two Pointers
 
 | Question Number| Official Website Link | Solution's Link |
