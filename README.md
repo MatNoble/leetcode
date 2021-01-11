@@ -2,7 +2,7 @@
 
 ![png](https://img.shields.io/badge/language-Python%203-brightgreen.svg)
 
-This is my personal repo while learning algorithms.
+This is my personal repo while learning algorithms. The contents in this repo are largely attributed to [Turing Planet](https://turingplanet.org/), and their youtube channel is [<img src="https://yt3.ggpht.com/ytc/AAUvwnhzp5Oo4li1An6Xh82AL3j2DKpU2FnkcmG0Rq2lJw=s0" width = 15>](https://www.youtube.com/channel/UCaShCEomtBrCb-B0NRrGqzg).
 
 1. [Python Basic](https://github.com/MatNoble/leetcode/issues/1)
 2. [Data Sturctures and Algorithms](https://github.com/MatNoble/leetcode/issues/2)
