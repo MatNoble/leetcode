@@ -23,6 +23,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | Question Number| Official Website Link | Solution's Link |
 |:-:|-|-|
 |034|[find first and last position of element in sorted array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/034.py)|
+|069|[sqrtx](https://leetcode-cn.com/problems/sqrtx/)|[easy](https://github.com/MatNoble/leetcode/blob/main/069.py)|
 |074|[search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[medium](https://github.com/MatNoble/leetcode/blob/main/074.py)|
 |540|[single element in a sorted array](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/540.py)|
 |704|[binary-search](https://leetcode-cn.com/problems/binary-search/)|[easy](https://github.com/MatNoble/leetcode/blob/main/704.py)|
