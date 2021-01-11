@@ -23,19 +23,19 @@ class Solution:
 
     def myPowR(self, x: float, n: int) -> float:
         if x == 0.0: return 0.0
-        def my_pow(x, n):
-            if n == 0: return 1.0
-            res = my_pow(abs(x), abs(n) // 2)
-            res *= res
-            if abs(n) % 2: res *= x
-            return res
-        res = my_pow(x, n)
+        if n == 0: return 1.0
+        
+        res = self.myPowR(abs(x), abs(n) // 2)
+        res *= res
+        if abs(n) % 2: res *= x
         return 1/res if n<0 else res
 
 x = 0
 x = -3
+x = 3
 n = 1
 n = 5
+n = -5
 mat = Solution()
 print(mat.myPow(x, n))
 print(mat.myPowR(x, n))
