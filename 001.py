@@ -21,25 +21,26 @@
 '''
 
 class Solution:
-    def twoSum(self, nums, target):
+    ## Brute Force
+    def twoSum_bf(self, nums, target):
         n = len(nums)
         for i in range(n):
             for j in range(i+1, n):
-                if abs(nums[i] + nums[j] - target) < 1E-6:
-                    return [i, j]
-    def twoSum1(self, nums, target):
+                if nums[i] + nums[j] == target:
+                    return [i, j]    
+    ## Hash Map
+    def twoSum_hm(self, nums, target):
     	mapping = {}
     	for index, val in enumerate(nums):
-    		diff = target - val
-    		if diff in mapping:
-    			return [index, mapping[diff]]
-    		else:
-    			mapping[val] = index
-    
+            diff = target - val
+            if mapping.get(diff) is not None:
+                return [mapping.get(diff), index]
+            mapping[val] = index
+
 nums = [2, 4, 7, 10, 9, 16]
 target = 12
 
 mat = Solution()
-mat.twoSum(nums, target)
-mat.twoSum1(nums, target)
+print(mat.twoSum_bf(nums, target))
+print(mat.twoSum_hm(nums, target))
 
