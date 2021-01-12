@@ -36,7 +36,8 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 
 ### Hash Map
 
-|Number| Question Number| Official Website Link | Solution's Link |
-|:-:|:-:|-|-|
-|1|001|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|[easy](https://github.com/MatNoble/leetcode/blob/main/001.py)|
-|2|560|[subarray sum equals k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|[medium](https://github.com/MatNoble/leetcode/blob/main/560.py)|
+| Question Number| Official Website Link | Solution's Link |
+|:-:|-|-|
+|001|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|[easy](https://github.com/MatNoble/leetcode/blob/main/001.py)|
+|003|[longest substring without repeating characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[medium](https://github.com/MatNoble/leetcode/blob/main/003.py)|
+|560|[subarray sum equals k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|[medium](https://github.com/MatNoble/leetcode/blob/main/560.py)|
