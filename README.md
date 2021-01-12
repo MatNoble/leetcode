@@ -33,3 +33,9 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |5|704|[binary-search](https://leetcode-cn.com/problems/binary-search/)|[easy](https://github.com/MatNoble/leetcode/blob/main/704.py)|
 |6|744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
 |7|852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
+
+### Hash Map
+
+|Number| Question Number| Official Website Link | Solution's Link |
+|:-:|:-:|-|-|
+|1|001|[Two Sum](https://leetcode-cn.com/problems/two-sum/)|[easy](https://github.com/MatNoble/leetcode/blob/main/001.py)|
