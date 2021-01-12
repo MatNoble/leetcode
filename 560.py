@@ -1,11 +1,14 @@
 #==================================================
-#==>      Title:                                    
+#==>      Title: subarray-sum-equals-k
 #==>     Author: Zhang zhen                   
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
-#==>       Date: 
+#==>       Date: 1/12/2021
 #==================================================
 
+"""
+https://leetcode-cn.com/problems/subarray-sum-equals-k/
+"""
 
 class Solution:
     def subarraySum(self, nums, k):
