@@ -19,6 +19,8 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |:-:|-|-|
 |011| [container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
 | 026 | [remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/026.py) |
+| 141 | [linked list cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/141.py) |
+| 142 | [linked list cycle ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/142.py) |
 |189|[rotate array](https://leetcode-cn.com/problems/rotate-array/)| [medium](https://github.com/MatNoble/leetcode/blob/main/026.py)|
 | 283 | [move zeros](https://leetcode-cn.com/problems/move-zeroes/) | [easy](https://github.com/MatNoble/leetcode/blob/main/283.py)|
 | 344 | [reverse string](https://leetcode-cn.com/problems/reverse-string/) | [easy](https://github.com/MatNoble/leetcode/blob/main/344.py) |
