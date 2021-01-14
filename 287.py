@@ -1,11 +1,14 @@
 #==================================================
-#==>      Title:                                     
+#==>      Title: find-the-duplicate-number                                    
 #==>     Author: Zhang zhen                   
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
-#==>       Date: 
+#==>       Date: 1/14/2021
 #==================================================
 
+"""
+https://leetcode-cn.com/problems/find-the-duplicate-number/
+"""
 
 class Solution:
     def findDuplicate(self, nums):

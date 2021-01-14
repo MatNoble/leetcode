@@ -23,6 +23,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | 142 | [linked list cycle ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/142.py) |
 |189|[rotate array](https://leetcode-cn.com/problems/rotate-array/)| [medium](https://github.com/MatNoble/leetcode/blob/main/026.py)|
 | 283 | [move zeros](https://leetcode-cn.com/problems/move-zeroes/) | [easy](https://github.com/MatNoble/leetcode/blob/main/283.py)|
+| 287 | [find the duplicate number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [medium](https://github.com/MatNoble/leetcode/blob/main/287.py)|
 | 344 | [reverse string](https://leetcode-cn.com/problems/reverse-string/) | [easy](https://github.com/MatNoble/leetcode/blob/main/344.py) |
 
 ### Binary Search
