@@ -43,6 +43,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | Question Number| Official Website Link | Solution's Link |
 |:-:|-|-|
 |020|[valid parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|[easy](https://github.com/MatNoble/leetcode/blob/main/020.py)|
+|496|[next greater element i](https://leetcode-cn.com/problems/next-greater-element-i/)|[easy](https://github.com/MatNoble/leetcode/blob/main/496.py)|
 |735|[asteroid collision](https://leetcode-cn.com/problems/asteroid-collision/)|[medium](https://github.com/MatNoble/leetcode/blob/main/735.py)|
 |739|[daily temperatures](https://leetcode-cn.com/problems/daily-temperatures/)|[medium](https://github.com/MatNoble/leetcode/blob/main/739.py)|
 
