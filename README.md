@@ -9,15 +9,30 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 3. [Sorting Algorithms](https://colab.research.google.com/drive/17JVPeq6Quhgsq_Rd8X7pF643Yoh8stV6?usp=sharing)
 4. [Problem-solving cheats](https://github.com/MatNoble/leetcode/issues/3)
 
+---
+
+### Recursion
+
+#### Reverse Linked Lists
+
+| Question Number| Official Website Link | Solution's Link |
+|:-:|-|-|
+|206| [reverse linked list](https://leetcode-cn.com/problems/reverse-linked-list/) | [easy](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
+| 092 | [reverse linked list II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
+
+--- 
+
 ### Math
 
 1. [Binary Exponentiation](https://github.com/MatNoble/leetcode/blob/main/050.py)
+
+---
 
 ### Two Pointers
 
 | Question Number| Official Website Link | Solution's Link |
 |:-:|-|-|
-|011| [container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
+|011| [container with most water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
 | 026 | [remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/026.py) |
 | 141 | [linked list cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/141.py) |
 | 142 | [linked list cycle ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/142.py) |
@@ -25,6 +40,8 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | 283 | [move zeros](https://leetcode-cn.com/problems/move-zeroes/) | [easy](https://github.com/MatNoble/leetcode/blob/main/283.py)|
 | 287 | [find the duplicate number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [medium](https://github.com/MatNoble/leetcode/blob/main/287.py)|
 | 344 | [reverse string](https://leetcode-cn.com/problems/reverse-string/) | [easy](https://github.com/MatNoble/leetcode/blob/main/344.py) |
+
+---
 
 ### Binary Search
 
@@ -38,6 +55,8 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
 |852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
 
+---
+
 ### Stack
 
 | Question Number| Official Website Link | Solution's Link |
@@ -47,6 +66,8 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |503|[next greater element ii](https://leetcode-cn.com/problems/next-greater-element-ii/)|[medium](https://github.com/MatNoble/leetcode/blob/main/503.py)|
 |735|[asteroid collision](https://leetcode-cn.com/problems/asteroid-collision/)|[medium](https://github.com/MatNoble/leetcode/blob/main/735.py)|
 |739|[daily temperatures](https://leetcode-cn.com/problems/daily-temperatures/)|[medium](https://github.com/MatNoble/leetcode/blob/main/739.py)|
+
+---
 
 ### Hash Map
 
