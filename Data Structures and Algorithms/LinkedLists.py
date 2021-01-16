@@ -94,6 +94,7 @@ class LinkedList():
                 return
             cur_idx += 1
 
+if __name__ = '__main__'
 mat = LinkedList()
 mat.display()
 # Adds new node containing 'data' to the end of the linked list
