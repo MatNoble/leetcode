@@ -1,5 +1,5 @@
 class ListNode():
-    def __init__(self, val=None):
+    def __init__(self, val = None):
         self.val = val
         self.next = None
 
@@ -94,31 +94,31 @@ class LinkedList():
                 return
             cur_idx += 1
 
-if __name__ = '__main__'
-mat = LinkedList()
-mat.display()
-# Adds new node containing 'data' to the end of the linked list
-for i in range(5):
-    mat.append(i*i)
-mat.display()
+# if __name__ == '__main__':
+# mat = LinkedList()
+# mat.display()
+# # Adds new node containing 'data' to the end of the linked list
+# for i in range(5):
+#     mat.append(i*i)
+# mat.display()
 
-# Returns the length (integer) of the linked list
-print(f"the length of mat is: {mat.length()}\n")
+# # Returns the length (integer) of the linked list
+# print(f"the length of mat is: {mat.length()}\n")
 
-# Returns the value of the node at 'index'
-k = 2
-print(f"the value of node which index equals {k} is {mat.get(k)}")
-print(f"the value of node which index equals {k} is {mat[k]}\n")
+# # Returns the value of the node at 'index'
+# k = 2
+# print(f"the value of node which index equals {k} is {mat.get(k)}")
+# print(f"the value of node which index equals {k} is {mat[k]}\n")
 
-# Deletes the node at index 'index'
-mat.erase(k)
-print(f"the LinkedList deleted the node which index euqals {k} is: ")
-mat.display()
+# # Deletes the node at index 'index'
+# mat.erase(k)
+# print(f"the LinkedList deleted the node which index euqals {k} is: ")
+# mat.display()
 
-# insert
-mat.insert(3, 100)
-mat.display()
+# # insert
+# mat.insert(3, 100)
+# mat.display()
 
-# set_
-mat.set_(3, 200)
-mat.display()
+# # set_
+# mat.set_(3, 200)
+# mat.display()
