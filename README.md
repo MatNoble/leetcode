@@ -20,6 +20,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | 025 | [reverse nodes in k group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |  [hard](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
 | 092 | [reverse linked list II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
 |206| [reverse linked list](https://leetcode-cn.com/problems/reverse-linked-list/) | [easy](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
+|234|[palindrome linked list](https://leetcode-cn.com/problems/palindrome-linked-list/)|[easy](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/palindrome_linked_list.py)|
 
 --- 
 
