@@ -7,6 +7,17 @@ class LinkedList():
     def __init__(self):
         self.head = ListNode()
 
+    def isPalindrome(self):
+        cur = self.head.next
+        self.left = cur
+        def traverse(right):
+            if right == None: return True
+            res = traverse(right.next)
+            res = res and (self.left.val == right.val)
+            self.left = self.left.next
+            return res
+        return traverse(cur)
+
     # Adds new node containing 'data' to the end of the linked list
     def append(self, val):
         new_node = ListNode(val)
