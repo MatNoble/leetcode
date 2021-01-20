@@ -34,6 +34,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 
 | Question Number| Official Website Link | Solution's Link |
 |:-:|-|-|
+|005| [longest palindromic substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [medium](https://github.com/MatNoble/leetcode/blob/main/005.py) |
 |011| [container with most water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
 | 026 | [remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/026.py) |
 |076|[minimum window substring](https://leetcode-cn.com/problems/minimum-window-substring/)|[hard](https://github.com/MatNoble/leetcode/blob/main/076.py)|
