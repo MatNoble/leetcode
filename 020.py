@@ -14,8 +14,8 @@ class Solution:
     def isValid(self, s):
         dict = {'(':1, ')':-1, '{':2, '}':-2, '[':3, ']':-3}
         stack = []
-        for i in range(len(s)):
-            temp = dict[s[i]]
+        for val in s:
+            temp = dict[val]
             if len(stack) != 0 and stack[-1] > 0 and stack[-1] + temp == 0:
                 stack.pop()
             else:
@@ -25,5 +25,6 @@ class Solution:
 s = "()[]{)"
 s = ")("
 s = "()"
+s = "([}}])"
 mat = Solution()
 mat.isValid(s)
