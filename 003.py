@@ -12,11 +12,10 @@ https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 class Solution:
     def lengthOfLongestSubstring(self, s):
-        i, j, cnt = 0, 0, 0
+        i, cnt = 0, 0
         HashMap = {}
         for idx, val in enumerate(s):
-            if HashMap.get(val) is not None:
-                i = max(HashMap.get(val), i)
+            if HashMap.get(val): i = max(HashMap.get(val), i)
             HashMap[val] = idx + 1
             cnt = max(cnt, idx-i+1)
         return cnt
