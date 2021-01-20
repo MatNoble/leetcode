@@ -37,6 +37,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |005| [longest palindromic substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [medium](https://github.com/MatNoble/leetcode/blob/main/005.py) |
 |011| [container with most water](https://leetcode-cn.com/problems/container-with-most-water/) | [medium](https://github.com/MatNoble/leetcode/blob/main/011.py) |
 | 026 | [remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/026.py) |
+| 042 | [trapping rain water](https://leetcode-cn.com/problems/trapping-rain-water/) |  [hard](https://github.com/MatNoble/leetcode/blob/main/042.py) |
 |076|[minimum window substring](https://leetcode-cn.com/problems/minimum-window-substring/)|[hard](https://github.com/MatNoble/leetcode/blob/main/076.py)|
 | 141 | [linked list cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  [easy](https://github.com/MatNoble/leetcode/blob/main/141.py) |
 | 142 | [linked list cycle ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/142.py) |
