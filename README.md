@@ -13,6 +13,8 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 
 ### Recursion
 
+[Basic](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/recursion.py)
+
 #### Reverse Linked Lists
 
 | Question Number| Official Website Link | Solution's Link |
@@ -21,6 +23,13 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | 092 | [reverse linked list II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) |  [medium](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
 |206| [reverse linked list](https://leetcode-cn.com/problems/reverse-linked-list/) | [easy](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/reverse-linked-list.py) |
 |234|[palindrome linked list](https://leetcode-cn.com/problems/palindrome-linked-list/)|[easy](https://github.com/MatNoble/leetcode/blob/main/Data%20Structures%20and%20Algorithms/palindrome_linked_list.py)|
+
+#### Binary Tree
+| Question Number| Official Website Link | Solution's Link |
+|:-:|-|-|
+|105| [construct binary tree from preorder and inorder traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [medium](https://github.com/MatNoble/leetcode/blob/main/105.py) |
+|106|[construct binary tree from inorder and postorder traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [medium](https://github.com/MatNoble/leetcode/blob/main/106.py) |
+|654| [maximum binary tree](https://leetcode-cn.com/problems/maximum-binary-tree/) | [medium](https://github.com/MatNoble/leetcode/blob/main/654.py) |
 
 --- 
 
