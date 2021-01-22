@@ -66,6 +66,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |069|[sqrtx](https://leetcode-cn.com/problems/sqrtx/)|[easy](https://github.com/MatNoble/leetcode/blob/main/069.py)|
 |074|[search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[medium](https://github.com/MatNoble/leetcode/blob/main/074.py)|
 |081|[search in rotated sorted array ii](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[medium](https://github.com/MatNoble/leetcode/blob/main/081.py)|
+|153|[find minimum in rotated sorted array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/153.py)|
 |240|[search a 2d matrix ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|[medium](https://github.com/MatNoble/leetcode/blob/main/240.py)|
 |540|[single element in a sorted array](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|[medium](https://github.com/MatNoble/leetcode/blob/main/540.py)|
 |704|[binary-search](https://leetcode-cn.com/problems/binary-search/)|[easy](https://github.com/MatNoble/leetcode/blob/main/704.py)|
