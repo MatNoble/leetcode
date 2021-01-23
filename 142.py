@@ -3,14 +3,14 @@
 #==>     Author: Zhang zhen
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
-#==>       Date: 1/14/2021
+#==>       Date: 1/23/2021
 #==================================================
 
 """
 https://leetcode-cn.com/problems/linked-list-cycle-ii/
 """
 
-Definition for singly-linked list.
+# Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -18,13 +18,14 @@ class ListNode:
 
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
-        if head == None: return
-        slow, fast = head, head
-        while True:
-            if fast == None or fast.next == None: return
+        slow = fast = head
+        x = None
+        while fast and fast.next:
             slow, fast = slow.next, fast.next.next
-            if slow == fast: break
+            if slow == fast:
+                x = slow
+                break
+        if x == None: return
         finder = head
-        while finder != slow:
-            finder, slow= finder.next, slow.next
+        while finder != x: finder, x = finder.next, x.next
         return finder
