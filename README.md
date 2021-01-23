@@ -72,6 +72,7 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 |704|[binary-search](https://leetcode-cn.com/problems/binary-search/)|[easy](https://github.com/MatNoble/leetcode/blob/main/704.py)|
 |744|[find smallest letter greater than target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/submissions/)|[easy](https://github.com/MatNoble/leetcode/blob/main/744.py)|
 |852|[peak index in a mountain array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[easy](https://github.com/MatNoble/leetcode/blob/main/852.py)|
+|875|[koko eating bananas](https://leetcode-cn.com/problems/koko-eating-bananas/)|[medium](https://github.com/MatNoble/leetcode/blob/main/875.py)|
 
 ---
 
