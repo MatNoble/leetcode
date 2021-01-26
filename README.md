@@ -55,6 +55,12 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 | 287 | [find the duplicate number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [medium](https://github.com/MatNoble/leetcode/blob/main/287.py)|
 | 344 | [reverse string](https://leetcode-cn.com/problems/reverse-string/) | [easy](https://github.com/MatNoble/leetcode/blob/main/344.py) |
 
+#### Sliding Window
+
+| Question Number| Official Website Link | Solution's Link |
+|:-:|-|-|
+|239|[sliding window maximum](https://leetcode-cn.com/problems/sliding-window-maximum/)|[hard](https://github.com/MatNoble/leetcode/blob/main/239.py)|
+
 ---
 
 ### Binary Search
