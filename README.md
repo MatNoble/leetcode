@@ -10,6 +10,14 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 4. [Problem-solving cheats](https://github.com/MatNoble/leetcode/issues/3)
 
 ---
+### Tips
+
+Advising add the extension of [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo) to your Chrome to view a table of contents.
+Advicing add 
+
+<img src="https://cdn.jsdelivr.net/gh/MatNoble/Images/20210126180354.png"/>
+
+---
 
 ### Recursion
 
