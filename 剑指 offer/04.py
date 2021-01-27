@@ -25,7 +25,6 @@ class Solution:
                 return True
         return False
 
-
 mat = Solution()
 matrix = [
     [1,   4,  7, 11, 15],

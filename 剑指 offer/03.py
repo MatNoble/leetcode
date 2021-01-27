@@ -33,4 +33,5 @@ class Solution:
 
 mat = Solution()
 nums = [2, 3, 1, 0, 2, 5, 3]
+nums = [0, 1, 2, 3, 2]
 mat.findRepeatNumber(nums)
