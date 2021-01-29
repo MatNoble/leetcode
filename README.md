@@ -8,6 +8,10 @@ This is my personal repo while learning algorithms. The contents in this repo ar
 2. [Data Sturctures and Algorithms](https://github.com/MatNoble/leetcode/issues/2)
 3. [Sorting Algorithms](https://colab.research.google.com/drive/17JVPeq6Quhgsq_Rd8X7pF643Yoh8stV6?usp=sharing)
 4. [Problem-solving cheats](https://github.com/MatNoble/leetcode/issues/3)
+--- 
+5. [剑指 Offer 题解](https://matnoble.me/dsa/codinginterviews/)
+6. [Leetcode 题解](https://matnoble.me/tags/leetcode%E9%A2%98%E8%A7%A3/)
+
 
 ---
 ### Tips
