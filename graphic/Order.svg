@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (1.0+r73+1)"
+   sodipodi:docname="Order.svg"
+   id="svg84"
+   version="1.1"
+   viewBox="0 0 405 200"
+   height="200pt"
+   width="405pt">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs88" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg84"
+     inkscape:window-maximized="1"
+     inkscape:window-y="28"
+     inkscape:window-x="0"
+     inkscape:cy="143.67683"
+     inkscape:cx="353.64175"
+     inkscape:zoom="1.5571394"
+     showgrid="false"
+     id="namedview86"
+     inkscape:window-height="740"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     transform="translate(-6.0000002,1.5)"
+     id="g1621">
+    <g
+       id="graph0"
+       class="graph"
+       transform="matrix(0.42438308,0,0,0.42438308,143.32695,79.03005)">
+      <title
+         id="title2">binaryTree</title>
+      <polygon
+         fill="#ffffff"
+         stroke="transparent"
+         points="-4,-184 310,-184 310,4 -4,4 "
+         id="polygon4" />
+      <!-- 1 -->
+      <g
+         id="node1"
+         class="node">
+        <title
+           id="title6">1</title>
+        <circle
+           fill="none"
+           stroke="#ff0000"
+           cx="153"
+           cy="-162"
+           id="ellipse8"
+           r="18" />
+        <text
+           text-anchor="middle"
+           x="153"
+           y="-158.5"
+           font-family="Times, serif"
+           font-size="15px"
+           fill="#0000ff"
+           id="text10">1</text>
+      </g>
+      <!-- 2 -->
+      <g
+         id="node2"
+         class="node">
+        <title
+           id="title13">2</title>
+        <circle
+           fill="none"
+           stroke="#ff0000"
+           cx="72"
+           cy="-90"
+           id="ellipse15"
+           r="18" />
+        <text
+           text-anchor="middle"
+           x="72"
+           y="-86.5"
+           font-family="Times, serif"
+           font-size="15px"
+           fill="#0000ff"
+           id="text17">2</text>
+      </g>
+      <!-- 1&#45;&gt;2 -->
+      <g
+         id="edge1"
+         class="edge">
+        <title
+           id="title20">1-&gt;2</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 139.62,-149.44 c -12.73,11.01 -32.1,27.74 -46.85,40.49"
+           id="path22" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="85.13,-102.34 90.4,-111.53 94.98,-106.23 "
+           id="polygon24" />
+      </g>
+      <!-- 3 -->
+      <g
+         id="node3"
+         class="node">
+        <title
+           id="title27">3</title>
+        <circle
+           fill="none"
+           stroke="#ff0000"
+           cx="234"
+           cy="-90"
+           id="ellipse29"
+           r="18" />
+        <text
+           text-anchor="middle"
+           x="234"
+           y="-86.5"
+           font-family="Times, serif"
+           font-size="15px"
+           fill="#0000ff"
+           id="text31">3</text>
+      </g>
+      <!-- 1&#45;&gt;3 -->
+      <g
+         id="edge2"
+         class="edge">
+        <title
+           id="title34">1-&gt;3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 166.38,-149.44 c 12.73,11.01 32.1,27.74 46.85,40.49"
+           id="path36" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="220.87,-102.34 211.02,-106.23 215.6,-111.53 "
+           id="polygon38" />
+      </g>
+      <!-- 4 -->
+      <g
+         id="node4"
+         class="node">
+        <title
+           id="title41">4</title>
+        <circle
+           fill="none"
+           stroke="#ff0000"
+           cx="18"
+           cy="-18"
+           id="ellipse43"
+           r="18" />
+        <text
+           text-anchor="middle"
+           x="18"
+           y="-14.5"
+           font-family="Times, serif"
+           font-size="15px"
+           fill="#0000ff"
+           id="text45">4</text>
+      </g>
+      <!-- 2&#45;&gt;4 -->
+      <g
+         id="edge3"
+         class="edge">
+        <title
+           id="title48">2-&gt;4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 61.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+           id="path50" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="28.65,-32.8 31.98,-42.86 37.53,-38.58 "
+           id="polygon52" />
+      </g>
+      <!-- m2 -->
+      <!-- 2&#45;&gt;m2 -->
+      <!-- 5 -->
+      <g
+         id="node6"
+         class="node">
+        <title
+           id="title55">5</title>
+        <circle
+           fill="none"
+           stroke="#ff0000"
+           cx="126"
+           cy="-18"
+           id="ellipse57"
+           r="18" />
+        <text
+           text-anchor="middle"
+           x="126"
+           y="-14.5"
+           font-family="Times, serif"
+           font-size="15px"
+           fill="#0000ff"
+           id="text59">5</text>
+      </g>
+      <!-- 2&#45;&gt;5 -->
+      <g
+         id="edge5"
+         class="edge">
+        <title
+           id="title62">2-&gt;5</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 82.67,-75.17 c 7.54,9.78 17.81,23.09 26.46,34.3"
+           id="path64" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="115.35,-32.8 106.47,-38.58 112.02,-42.86 "
+           id="polygon66" />
+      </g>
+      <!-- 6 -->
+      <g
+         id="node7"
+         class="node">
+        <title
+           id="title69">6</title>
+        <circle
+           fill="none"
+           stroke="#ff0000"
+           cx="180"
+           cy="-18"
+           id="ellipse71"
+           r="18" />
+        <text
+           text-anchor="middle"
+           x="180"
+           y="-14.5"
+           font-family="Times, serif"
+           font-size="15px"
+           fill="#0000ff"
+           id="text73">6</text>
+      </g>
+      <!-- 3&#45;&gt;6 -->
+      <g
+         id="edge6"
+         class="edge">
+        <title
+           id="title76">3-&gt;6</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 223.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+           id="path78" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="190.65,-32.8 193.98,-42.86 199.53,-38.58 "
+           id="polygon80" />
+      </g>
+      <!-- m3 -->
+      <!-- 3&#45;&gt;m3 -->
+      <!-- m4 -->
+      <!-- 3&#45;&gt;m4 -->
+    </g>
+    <g
+       id="g1374"
+       transform="translate(3.115245,9.3834275)">
+      <g
+         id="graph0-3"
+         class="graph"
+         transform="matrix(0.42438308,0,0,0.42438307,6.9554182,170.43064)">
+        <title
+           id="title614">preOrder</title>
+        <polygon
+           fill="#ffffff"
+           stroke="transparent"
+           points="-4,-184 310,-184 310,4 -4,4 "
+           id="polygon616" />
+        <!-- 1 -->
+        <g
+           id="node1-6"
+           class="node">
+          <title
+             id="title618">1</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="153"
+             cy="-162"
+             id="ellipse620" />
+          <text
+             text-anchor="middle"
+             x="153"
+             y="-158.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text622">1</text>
+        </g>
+        <!-- 2 -->
+        <g
+           id="node2-7"
+           class="node">
+          <title
+             id="title625">2</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="72"
+             cy="-90"
+             id="ellipse627" />
+          <text
+             text-anchor="middle"
+             x="72"
+             y="-86.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text629">2</text>
+        </g>
+        <!-- 1&#45;&gt;2 -->
+        <g
+           id="edge1-5"
+           class="edge">
+          <title
+             id="title632">1-&gt;2</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 139.62,-149.44 c -12.73,11.01 -32.1,27.74 -46.85,40.49"
+             id="path634" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="85.13,-102.34 90.4,-111.53 94.98,-106.23 "
+             id="polygon636" />
+        </g>
+        <!-- 5 -->
+        <g
+           id="node3-3"
+           class="node">
+          <title
+             id="title639">5</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="234"
+             cy="-90"
+             id="ellipse641" />
+          <text
+             text-anchor="middle"
+             x="234"
+             y="-86.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text643">5</text>
+        </g>
+        <!-- 1&#45;&gt;5 -->
+        <g
+           id="edge2-5"
+           class="edge">
+          <title
+             id="title646">1-&gt;5</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 166.38,-149.44 c 12.73,11.01 32.1,27.74 46.85,40.49"
+             id="path648" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="220.87,-102.34 211.02,-106.23 215.6,-111.53 "
+             id="polygon650" />
+        </g>
+        <!-- 3 -->
+        <g
+           id="node4-6"
+           class="node">
+          <title
+             id="title653">3</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="18"
+             cy="-18"
+             id="ellipse655" />
+          <text
+             text-anchor="middle"
+             x="18"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text657">3</text>
+        </g>
+        <!-- 2&#45;&gt;3 -->
+        <g
+           id="edge3-2"
+           class="edge">
+          <title
+             id="title660">2-&gt;3</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 61.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+             id="path662" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="28.65,-32.8 31.98,-42.86 37.53,-38.58 "
+             id="polygon664" />
+        </g>
+        <!-- m2 -->
+        <!-- 2&#45;&gt;m2 -->
+        <!-- 4 -->
+        <g
+           id="node6-9"
+           class="node">
+          <title
+             id="title667">4</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="126"
+             cy="-18"
+             id="ellipse669" />
+          <text
+             text-anchor="middle"
+             x="126"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text671">4</text>
+        </g>
+        <!-- 2&#45;&gt;4 -->
+        <g
+           id="edge5-1"
+           class="edge">
+          <title
+             id="title674">2-&gt;4</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 82.67,-75.17 c 7.54,9.78 17.81,23.09 26.46,34.3"
+             id="path676" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="115.35,-32.8 106.47,-38.58 112.02,-42.86 "
+             id="polygon678" />
+        </g>
+        <!-- 6 -->
+        <g
+           id="node7-2"
+           class="node">
+          <title
+             id="title681">6</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="180"
+             cy="-18"
+             id="ellipse683" />
+          <text
+             text-anchor="middle"
+             x="180"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text685">6</text>
+        </g>
+        <!-- 5&#45;&gt;6 -->
+        <g
+           id="edge6-7"
+           class="edge">
+          <title
+             id="title688">5-&gt;6</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 223.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+             id="path690" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="190.65,-32.8 193.98,-42.86 199.53,-38.58 "
+             id="polygon692" />
+        </g>
+        <!-- m3 -->
+        <!-- 5&#45;&gt;m3 -->
+        <!-- m4 -->
+        <!-- 5&#45;&gt;m4 -->
+      </g>
+      <g
+         id="graph0-0"
+         class="graph"
+         transform="matrix(0.42438308,0,0,0.42438307,273.468,170.43064)">
+        <title
+           id="title751">postOrder</title>
+        <polygon
+           fill="#ffffff"
+           stroke="transparent"
+           points="-4,-184 310,-184 310,4 -4,4 "
+           id="polygon753" />
+        <!-- 6 -->
+        <g
+           id="node1-9"
+           class="node">
+          <title
+             id="title755">6</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="153"
+             cy="-162"
+             id="ellipse757" />
+          <text
+             text-anchor="middle"
+             x="153"
+             y="-158.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text759">6</text>
+        </g>
+        <!-- 3 -->
+        <g
+           id="node2-3"
+           class="node">
+          <title
+             id="title762">3</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="72"
+             cy="-90"
+             id="ellipse764" />
+          <text
+             text-anchor="middle"
+             x="72"
+             y="-86.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text766">3</text>
+        </g>
+        <!-- 6&#45;&gt;3 -->
+        <g
+           id="edge1-6"
+           class="edge">
+          <title
+             id="title769">6-&gt;3</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 139.62,-149.44 c -12.73,11.01 -32.1,27.74 -46.85,40.49"
+             id="path771" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="85.13,-102.34 90.4,-111.53 94.98,-106.23 "
+             id="polygon773" />
+        </g>
+        <!-- 5 -->
+        <g
+           id="node3-0"
+           class="node">
+          <title
+             id="title776">5</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="234"
+             cy="-90"
+             id="ellipse778" />
+          <text
+             text-anchor="middle"
+             x="234"
+             y="-86.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text780">5</text>
+        </g>
+        <!-- 6&#45;&gt;5 -->
+        <g
+           id="edge2-6"
+           class="edge">
+          <title
+             id="title783">6-&gt;5</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 166.38,-149.44 c 12.73,11.01 32.1,27.74 46.85,40.49"
+             id="path785" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="220.87,-102.34 211.02,-106.23 215.6,-111.53 "
+             id="polygon787" />
+        </g>
+        <!-- 1 -->
+        <g
+           id="node4-2"
+           class="node">
+          <title
+             id="title790">1</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="18"
+             cy="-18"
+             id="ellipse792" />
+          <text
+             text-anchor="middle"
+             x="18"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text794">1</text>
+        </g>
+        <!-- 3&#45;&gt;1 -->
+        <g
+           id="edge3-6"
+           class="edge">
+          <title
+             id="title797">3-&gt;1</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 61.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+             id="path799" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="28.65,-32.8 31.98,-42.86 37.53,-38.58 "
+             id="polygon801" />
+        </g>
+        <!-- m2 -->
+        <!-- 3&#45;&gt;m2 -->
+        <!-- 2 -->
+        <g
+           id="node6-1"
+           class="node">
+          <title
+             id="title804">2</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="126"
+             cy="-18"
+             id="ellipse806" />
+          <text
+             text-anchor="middle"
+             x="126"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text808">2</text>
+        </g>
+        <!-- 3&#45;&gt;2 -->
+        <g
+           id="edge5-8"
+           class="edge">
+          <title
+             id="title811">3-&gt;2</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 82.67,-75.17 c 7.54,9.78 17.81,23.09 26.46,34.3"
+             id="path813" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="115.35,-32.8 106.47,-38.58 112.02,-42.86 "
+             id="polygon815" />
+        </g>
+        <!-- 4 -->
+        <g
+           id="node7-7"
+           class="node">
+          <title
+             id="title818">4</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="180"
+             cy="-18"
+             id="ellipse820" />
+          <text
+             text-anchor="middle"
+             x="180"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text822">4</text>
+        </g>
+        <!-- 5&#45;&gt;4 -->
+        <g
+           id="edge6-9"
+           class="edge">
+          <title
+             id="title825">5-&gt;4</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 223.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+             id="path827" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="190.65,-32.8 193.98,-42.86 199.53,-38.58 "
+             id="polygon829" />
+        </g>
+        <!-- m3 -->
+        <!-- 5&#45;&gt;m3 -->
+        <!-- m4 -->
+        <!-- 5&#45;&gt;m4 -->
+      </g>
+      <g
+         id="graph0-2"
+         class="graph"
+         transform="matrix(0.42438308,0,0,0.42438307,140.21171,170.43064)">
+        <title
+           id="title888">inOrder</title>
+        <polygon
+           fill="#ffffff"
+           stroke="transparent"
+           points="310,4 -4,4 -4,-184 310,-184 "
+           id="polygon890" />
+        <!-- 4 -->
+        <g
+           id="node1-0"
+           class="node">
+          <title
+             id="title892">4</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="153"
+             cy="-162"
+             id="ellipse894" />
+          <text
+             text-anchor="middle"
+             x="153"
+             y="-158.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text896">4</text>
+        </g>
+        <!-- 2 -->
+        <g
+           id="node2-2"
+           class="node">
+          <title
+             id="title899">2</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="72"
+             cy="-90"
+             id="ellipse901" />
+          <text
+             text-anchor="middle"
+             x="72"
+             y="-86.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text903">2</text>
+        </g>
+        <!-- 4&#45;&gt;2 -->
+        <g
+           id="edge1-3"
+           class="edge">
+          <title
+             id="title906">4-&gt;2</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 139.62,-149.44 c -12.73,11.01 -32.1,27.74 -46.85,40.49"
+             id="path908" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="90.4,-111.53 94.98,-106.23 85.13,-102.34 "
+             id="polygon910" />
+        </g>
+        <!-- 6 -->
+        <g
+           id="node3-7"
+           class="node">
+          <title
+             id="title913">6</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="234"
+             cy="-90"
+             id="ellipse915" />
+          <text
+             text-anchor="middle"
+             x="234"
+             y="-86.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text917">6</text>
+        </g>
+        <!-- 4&#45;&gt;6 -->
+        <g
+           id="edge2-59"
+           class="edge">
+          <title
+             id="title920">4-&gt;6</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 166.38,-149.44 c 12.73,11.01 32.1,27.74 46.85,40.49"
+             id="path922" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="211.02,-106.23 215.6,-111.53 220.87,-102.34 "
+             id="polygon924" />
+        </g>
+        <!-- 1 -->
+        <g
+           id="node4-22"
+           class="node">
+          <title
+             id="title927">1</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="18"
+             cy="-18"
+             id="ellipse929" />
+          <text
+             text-anchor="middle"
+             x="18"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text931">1</text>
+        </g>
+        <!-- 2&#45;&gt;1 -->
+        <g
+           id="edge3-8"
+           class="edge">
+          <title
+             id="title934">2-&gt;1</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 61.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+             id="path936" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="31.98,-42.86 37.53,-38.58 28.65,-32.8 "
+             id="polygon938" />
+        </g>
+        <!-- m2 -->
+        <!-- 2&#45;&gt;m2 -->
+        <!-- 3 -->
+        <g
+           id="node6-97"
+           class="node">
+          <title
+             id="title941">3</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="126"
+             cy="-18"
+             id="ellipse943" />
+          <text
+             text-anchor="middle"
+             x="126"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text945">3</text>
+        </g>
+        <!-- 2&#45;&gt;3 -->
+        <g
+           id="edge5-3"
+           class="edge">
+          <title
+             id="title948">2-&gt;3</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 82.67,-75.17 c 7.54,9.78 17.81,23.09 26.46,34.3"
+             id="path950" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="106.47,-38.58 112.02,-42.86 115.35,-32.8 "
+             id="polygon952" />
+        </g>
+        <!-- 5 -->
+        <g
+           id="node7-6"
+           class="node">
+          <title
+             id="title955">5</title>
+          <circle
+             r="18"
+             fill="none"
+             stroke="#ff0000"
+             cx="180"
+             cy="-18"
+             id="ellipse957" />
+          <text
+             text-anchor="middle"
+             x="180"
+             y="-14.5"
+             font-family="Times, serif"
+             font-size="15px"
+             fill="#0000ff"
+             id="text959">5</text>
+        </g>
+        <!-- 6&#45;&gt;5 -->
+        <g
+           id="edge6-1"
+           class="edge">
+          <title
+             id="title962">6-&gt;5</title>
+          <path
+             fill="none"
+             stroke="#000000"
+             d="m 223.33,-75.17 c -7.54,9.78 -17.81,23.09 -26.46,34.3"
+             id="path964" />
+          <polygon
+             fill="#000000"
+             stroke="#000000"
+             points="193.98,-42.86 199.53,-38.58 190.65,-32.8 "
+             id="polygon966" />
+        </g>
+        <!-- m3 -->
+        <!-- 6&#45;&gt;m3 -->
+        <!-- m4 -->
+        <!-- 6&#45;&gt;m4 -->
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.0495px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.628097"
+       x="61.5518"
+       y="194.87999"
+       id="text1378"
+       transform="scale(1.0049545,0.99506995)"><tspan
+         sodipodi:role="line"
+         id="tspan1376"
+         x="61.5518"
+         y="194.87999"
+         style="font-size:10.0495px;fill:#0000ff;stroke-width:0.628097">前 序</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.1533px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.634584"
+       x="193.31651"
+       y="196.89273"
+       id="text1386"
+       transform="scale(1.0153338,0.98489779)"><tspan
+         sodipodi:role="line"
+         id="tspan1384"
+         x="193.31651"
+         y="196.89273"
+         style="font-size:10.1533px;fill:#0000ff;stroke-width:0.634584">中 序</tspan></text>
+    <text
+       id="text1390"
+       y="194.68022"
+       x="328.60281"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       xml:space="preserve"><tspan
+         style="font-size:10px;fill:#0000ff;stroke-width:0.75"
+         y="194.68022"
+         x="328.60281"
+         id="tspan1388"
+         sodipodi:role="line">后 序</tspan></text>
+    <text
+       id="text1394"
+       y="93.848053"
+       x="195.98058"
+       style="font-style:normal;font-weight:normal;font-size:9.96525px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.622828"
+       xml:space="preserve"
+       transform="scale(1.003017,0.99699205)"><tspan
+         style="font-size:9.96525px;fill:#0000ff;stroke-width:0.622828"
+         y="93.848053"
+         x="195.98058"
+         id="tspan1392"
+         sodipodi:role="line">层 序</tspan></text>
+  </g>
+</svg>

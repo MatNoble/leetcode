@@ -1,0 +1,71 @@
+//digraph levelOrder{
+//    node [shape=circle,color=red,fontcolor=blue,fontsize=15];
+//    1 -> 2, 3;
+//    2 -> 4;
+//    // 隐藏中间节点的连线
+//    2 -> m2 [weight=10 style="invis"];
+//    2 -> 5;
+//
+//    3 -> 6;
+//    // 隐藏中间节点的连线
+//    3 -> m3 [weight=10 style="invis"];
+//    3 -> m4  [weight=10 style="invis"];
+//    //4 -> 8;
+//
+//    // 隐藏中间节点
+//    m2, m3, m4 [label="" style="invis"]
+//}
+
+//digraph preOrder{
+//    node [shape=circle,color=red,fontcolor=blue,fontsize=15];
+//    1 -> 2, 5;
+//    2 -> 3;
+//    // 隐藏中间节点的连线
+//    2 -> m2 [weight=10 style="invis"];
+//    2 -> 4;
+//
+//    5 -> 6;
+//    // 隐藏中间节点的连线
+//    5 -> m3 [weight=10 style="invis"];
+//    5 -> m4  [weight=10 style="invis"];
+//    //4 -> 8;
+//
+//    // 隐藏中间节点
+//    m2, m3, m4 [label="" style="invis"]
+//}
+
+//digraph inOrder{
+//    node [shape=circle,color=red,fontcolor=blue,fontsize=15];
+//    4 -> 2, 6;
+//    2 -> 1;
+//    // 隐藏中间节点的连线
+//    2 -> m2 [weight=10 style="invis"];
+//    2 -> 3;
+//
+//    6 -> 5;
+//    // 隐藏中间节点的连线
+//    6 -> m3 [weight=10 style="invis"];
+//    6 -> m4  [weight=10 style="invis"];
+//    //4 -> 8;
+//
+//    // 隐藏中间节点
+//    m2, m3, m4 [label="" style="invis"]
+//}
+
+digraph postOrder{
+    node [shape=circle,color=red,fontcolor=blue,fontsize=15];
+    6 -> 3, 5;
+    3 -> 1;
+    // 隐藏中间节点的连线
+    3 -> m2 [weight=10 style="invis"];
+    3 -> 2;
+
+    5 -> 4;
+    // 隐藏中间节点的连线
+    5 -> m3 [weight=10 style="invis"];
+    5 -> m4  [weight=10 style="invis"];
+    //4 -> 8;
+
+    // 隐藏中间节点
+    m2, m3, m4 [label="" style="invis"]
+}
