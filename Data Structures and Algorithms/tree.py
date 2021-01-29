@@ -98,6 +98,13 @@ class Solution:
             res.append(level)
         return res
 
+    def maxDepth(self, root: TreeNode) -> int:
+        def bottomUp(root):
+            return 0 if not root else max(bottomUp(root.left), bottomUp(root.right)) + 1
+        def topDown(root, depth):
+            return depth if not root else max(topDown(root.left, depth+1), topDown(root.right, depth+1))
+        return topDown(root, 0), bottomUp(root)
+
 mat = Solution()
 ## 前序
 root = TreeNode(1)
@@ -149,3 +156,6 @@ root.right = TreeNode(3)
 root.right.left = TreeNode(6)
 print("\n层序输出：")
 print(mat.levelOrder(root))
+
+print('\n最大树深度:')
+mat.maxDepth(root)
