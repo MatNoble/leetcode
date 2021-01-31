@@ -14,9 +14,7 @@ and 操作如果结果为真，返回最后一个表达式的值，
 
 class Solution:
     def sumNums(self, n: int) -> int:
-        print(n)
-        return 1 and 0
-        # return n and (n+self.sumNums(n-1))
+        return n and (n+self.sumNums(n-1))
 
 mat = Solution()
 mat.sumNums(3)
