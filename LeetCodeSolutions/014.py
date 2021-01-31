@@ -1,5 +1,5 @@
 #==================================================
-#==>      Title: Leetcode-014-longestCommonPrefix                                    
+#==>      Title: Leetcode-014-longestCommonPrefix
 #==>     Author: Zhang zhen                   
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
@@ -21,27 +21,23 @@ class Solution:
     def longestCommonPrefix(self, strs):
         if not strs: return ""
         setS = list(map(set, zip(*strs)))
-        res = ""
+        res = ''
         for i, x in enumerate(setS):
-            x = list(x)
-            if len(x) > 1:
-                break
-            res = res + x[0]
+            if len(x) > 1: break
+            res += x.pop()
         return res
 
     def longestCommonPrefix_mm(self, strs):
         if not strs: return ""
-        minS = min(strs)
-        maxS = max(strs)
+        minS, maxS = min(strs), max(strs)
         for i, x in enumerate(minS):
-            if x != maxS[i]:
-                return maxS[:i]
+            if x != maxS[i]: return maxS[:i]
         return minS
 
-a = ["flower","flow","flight","fly","fool"]
+a = ["flower","flow","flight","fly","flool"]
 mat = Solution()
 mat.longestCommonPrefix(a)
-mat.longestCommonPrefix_mm(a)
+# mat.longestCommonPrefix_mm(a)
 
 # print(min(a))
 # print(max(a))
