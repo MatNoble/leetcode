@@ -13,20 +13,16 @@ https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
 from typing import List
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
-        flag , left, right = 0, 0, len(numbers)-1
-        while left < right-1 and numbers[left] >= numbers[right]:
-            mid = left + (right - left + 1) // 2
-            while left < mid and numbers[left] == numbers[mid]:
-                flag = 1
-                left += 1
-            if flag == 1:
-                flag = 0
-                continue
-            if numbers[left] < numbers[mid]:
-                left = mid
+        left, right = 0, len(numbers)-1
+        while left < right:
+            mid = left + (right - left) // 2
+            while left < mid and numbers[left] == numbers[mid]: left += 1
+            if numbers[left] < numbers[right]: return numbers[left]
+            if numbers[left] <= numbers[mid]:
+                left = mid+1
             else:
                 right = mid
-        return numbers[left] if numbers[left]<numbers[right] else numbers[right]
+        return numbers[left]
 
 mat = Solution()
 numbers = [2, 3, 0, 1, 2]
