@@ -1,10 +1,14 @@
 #==================================================
-#==>      Title:                                     
+#==>      Title: 150. 逆波兰表达式求值
 #==>     Author: Zhang zhen                   
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
-#==>       Date: 
+#==>       Date: 2/2/2021
 #==================================================
+
+"""
+https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
+"""
 
 from typing import List
 class Solution:
