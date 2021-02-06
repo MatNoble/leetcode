@@ -17,16 +17,19 @@ class Solution:
                     i -= 1
                     j += 1
             return s[i+1: j]
-        res = ""
+        res = ''
         for i in range(len(s)):
             s1 = palindrome(s, i, i)
             s2 = palindrome(s, i, i+1)
-            res = res if len(res) >= len(s1) else s1
-            res = res if len(res) >= len(s2) else s2
+            if len(s1) > len(res): res = s1
+            if len(s2) > len(res): res = s2
         return res
 
 s = "cbbd"
-s = "a"
-s = ""
+s = "aba"
+# s = "aaa"
+s = "aaaa"
+# s = ""
+# s = "a"
 mat = Solution()
 mat.longestPalindrome(s)
