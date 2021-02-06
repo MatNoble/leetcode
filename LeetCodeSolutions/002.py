@@ -26,39 +26,32 @@ class ListNode:
         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        res = ListNode(0)
-        tempres = res
-        flag = 0
-        carry = 0
-        while l1 != None and l2 != None:
-            if flag == 0:
-                temp = l1.val + l2.val
-                res.val = temp % 10
-                carry = int(temp / 10)
-                flag += 1
-            else:
-                temp = l1.val + l2.val + carry
-                tempres.next = ListNode(temp % 10)
-                tempres = tempres.next
-                carry = int(temp / 10)
+        temp = l1.val + l2.val
+        count = temp // 10
+        res = ListNode(temp % 10)
+        cur = res
+        while l1.next and l2.next:
+            l1, l2 = l1.next, l2.next
+            temp = l1.val + l2.val + count
+            count = temp // 10
+            cur.next = ListNode(temp % 10)
+            cur = cur.next
+        while l1.next:
             l1 = l1.next
+            temp = l1.val + count
+            count = temp // 10
+            cur.next = ListNode(temp % 10)
+            cur = cur.next
+        while l2.next:
             l2 = l2.next
-        while l1:
-            temp = l1.val + carry
-            tempres.next = ListNode(temp % 10)
-            tempres = tempres.next
-            carry = int(temp / 10)
-            l1 = l1.next
-        while l2:
-            temp = l2.val + carry
-            tempres.next = ListNode(temp % 10)
-            tempres = tempres.next
-            carry = int(temp / 10)
-            l2 = l2.next
-        if carry != 0:
-            tempres.next = ListNode(1)
+            temp = l2.val + count
+            count = temp // 10
+            cur.next = ListNode(temp % 10)
+            cur = cur.next
+        if count: cur.next = ListNode(count)
         return res
 
-# mat = Solution()
-
-
+"""
+时间复杂度：$O(max(m, n)$ # m, n 分别 l1 和 l2 的长度
+空间复杂度：$O(max(m, n))$ 
+"""
