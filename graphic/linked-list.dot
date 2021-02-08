@@ -1,0 +1,12 @@
+digraph foo {
+        node [shape = plaintext, label = "NULL"];
+        null0;
+        rankdir=LR;
+        node [shape=record];
+        a [label="{ <data> pre | <ref>  }", width=1.2]
+        b [label="{ <data> pre.next | <ref>  }"];
+        c [label="{ <data> pre.next.next | <ref>  }"];
+        a:ref:c -> b:data [arrowhead=vee, arrowtail=dot, dir=both, tailclip=false, arrowsize=1.2];
+        b:ref:c -> c:data [arrowhead=vee, arrowtail=dot, dir=both, tailclip=false];
+        c:ref:c -> null0  [arrowhead=vee, arrowtail=dot, dir=both, tailclip=false];
+}
