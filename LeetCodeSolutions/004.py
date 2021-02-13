@@ -30,7 +30,7 @@ class Solution:
         if j & 1:
             return (nums[mid] + nums[mid+1]) / 2
         else:
-             return nums[mid]
+            return nums[mid]
 
 mat = Solution()
 nums1 = [1, 2, 9]
