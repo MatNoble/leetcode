@@ -13,21 +13,18 @@ https://leetcode-cn.com/problems/search-insert-position/
 from typing import List
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
-        left, right = 0, len(nums)-1
-        while left < right-1:
-            mid = left + (right-left+1)//2
-            if nums[mid] < target:
-                left = mid
-            elif target < nums[mid]:
-                right = mid
+        if target < nums[0]: return 0
+        if target > nums[-1]: return len(nums)
+
+        i, j = 0, len(nums)-1
+        while i < j - 1:
+            mid = i + (j-i) // 2
+            if nums[mid] == target: return mid
+            if nums[mid] > target:
+                j = mid
             else:
-                return mid
-        if target <= nums[left]:
-            return left
-        elif nums[right] < target:
-            return right + 1
-        else:
-            return right
+                i = mid
+        return i if nums[i] == target else j
 
 mat = Solution()
 nums = [1,3,5,6]
