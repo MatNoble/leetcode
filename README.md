@@ -1,5 +1,12 @@
 ## Leetcode Python3 solutions
 
+**目前，网站端更新更全！**  
+**Currently, the website is updated and more complete!**
+
+[LeetCode 题解及思路](https://matnoble.me/tags/%E7%BC%96%E7%A8%8B%E5%88%B7%E9%A2%98/)
+
+<hr size="5" width="500" color="#FF0000" />
+
 ![png](https://img.shields.io/badge/language-Python%203-brightgreen.svg)
 
 This is my personal repo while learning algorithms. The contents in this repo are largely attributed to [Turing Planet](https://turingplanet.org/), and their youtube channel is [<img src="https://yt3.ggpht.com/ytc/AAUvwnhzp5Oo4li1An6Xh82AL3j2DKpU2FnkcmG0Rq2lJw=s0" width = 15>](https://www.youtube.com/channel/UCaShCEomtBrCb-B0NRrGqzg).
