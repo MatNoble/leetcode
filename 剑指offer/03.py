@@ -1,5 +1,5 @@
 #==================================================
-#==>      Title:                                     
+#==>      Title: 剑指 Offer 03. 数组中重复的数字                                    
 #==>     Author: Zhang zhen                   
 #==>      Email: hustmatnoble.gmail.com
 #==>     GitHub: https://github.com/MatNoble
@@ -10,25 +10,29 @@
 https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 """
 
+from collections import Counter 
 class Solution:
     def findRepeatNumber(self, nums):
+        # 计数法
+        # return Counter(nums).most_common(1)[0][0]
+
+        # 哈希表
         # dict = set()
         # for num in nums:
         #     if num in dict: return num
         #     dict.add(num)
         # return -1
-        def swap(nums, i, j):
-            temp = nums[i]
-            nums[i] = nums[j]
-            nums[j] = temp
-        n = len(nums)
-        i = 0
+
+        # 原地置换  环
+        i, n = 0, len(nums)
         while i < n:
-            if nums[i] == i:
+            if nums[i] == i: 
                 i += 1
                 continue
-            if nums[nums[i]] == nums[i]: return nums[i]
-            swap(nums, i, nums[i])
+            if nums[nums[i]] == nums[i]: 
+                return nums[i] # 环入口
+            j = nums[i] # 归位
+            nums[i], nums[j] = nums[j], nums[i]
         return -1
 
 mat = Solution()

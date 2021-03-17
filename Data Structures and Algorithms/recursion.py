@@ -56,8 +56,7 @@ print(f'第 {n} 位斐波那契数是 {fib(n)}')
 def fibRecursion(n):  ## upDown
     def upDown(n):
         if n < 1: return 0
-        if n <= 2:
-            return 1
+        if n <= 2: return 1
         if dp[n]: return dp[n]
         dp[n] = upDown(n-1) + upDown(n-2)
         return dp[n]
