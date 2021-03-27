@@ -9,3 +9,5 @@
 ### 数组、字符串
 
 <img src="https://cdn.jsdelivr.net/gh/MatNoble/Images/20210327102030.png" title="数组、字符串"/>
+
+- [剑指 Offer 03. 数组中重复的数字](./offer03.ipynb)
