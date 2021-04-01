@@ -9,7 +9,7 @@
 """
 https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
 """
-
+# %%
 class Solution:
     def replaceSpace(self, s: str) -> str:
         res = ''
@@ -20,6 +20,9 @@ class Solution:
                 res += val
         return res
 
+# %%
 mat = Solution()
 s = "We are happy."
 mat.replaceSpace(s)
+
+# %%
