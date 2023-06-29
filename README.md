@@ -2,7 +2,7 @@
 > [![](https://img.shields.io/badge/Author-MatNoble-orange)]((https://matnoble.me)) ![png](https://img.shields.io/badge/language-Python%203-blue) ![](https://img.shields.io/badge/LeetCode-232%2F2021-brightgreen) ![](https://img.shields.io/badge/%E5%89%91%E6%8C%87offer-43%2F75-green)
 
 - [剑指 Offer](./剑指offer/README.md)
-- [LeetCode 题解及思路](https://matnoble.me/tags/%E7%BC%96%E7%A8%8B%E5%88%B7%E9%A2%98/)
+- [LeetCode 题解及思路](https://matnoble.github.io/tags/%E7%BC%96%E7%A8%8B%E5%88%B7%E9%A2%98/)
 
 ---
 ### Tips
